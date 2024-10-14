@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	img {
+		max-width: 100%;
+		vertical-align: bottom;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	input {
+		margin: 0;
+		padding: 0;
+		background: none;
+		border: none;
+		border-radius: 0;
+		outline: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+}
+
+.logo_box {
+	display: flex;
+	margin: 1% 2% 0 3%;
+	column-gap: 2%;
+}
+
+.logo_img {
+	width: 18%;
+}
+
+.site_name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+/* main */
+
+/* section_img */
+section.img_box {
+	padding-top: 10%;
+}
+
+.img_wrap {
+	display: flex;
+	padding: 1% 10%;
+	column-gap: 2%;
+}
+
+.img1 {
+	width: 20%;
+}
+
+/* section_syutyou */
+.syutyou_wrap {
+	padding-top: 10%;
+	margin-left: 3%;
+}
+
+.syutyou_wrap h3 {
+	font-size: 2rem;
+}
+
+.syutyou_wrap p {
+	font-size: 1.2rem;
+	line-height: 2.5;
+}
+
+/* section_menu */
+.menu_box {
+	padding-top: 10%;
+	margin-left: 3%;
+}
+
+.menu_box h3 {
+	font-size: 2rem;
+	padding-bottom: 2%;
+}
+
+table {
+	line-height: 2;
+}
+
+tr td {
+	font-size: 1.2rem;
+	width: 30%;
+}
+
+.menu_wrap p {
+	font-size: 1.2rem;
+}
+
+.menu_wrap span {
+	font-size: 1.2rem;
+	padding-left: 10%;
+}
+
+/* contact */
+.contact_img {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+/* footer */
+
+footer p {
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 3%;
+}
